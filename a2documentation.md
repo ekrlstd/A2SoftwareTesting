@@ -4,7 +4,8 @@ Ebbe Karlstad (ek224ev), Aakrish Lama (al226na) Course: Software Testing - 1DV60
 
 ## 1. Project Overview
 
-Checkstyle is a static code analysis tool which checks if a projects Java source code complies with certain code standards, which essentially are rules for how code should be written and formatted. It's highly customizable and has a lot of templates like Googles and Suns Java styles. It's used in many big projects due to the fact that it makes these proejcts easier to handle for developers, and gets everyone on the same page when it comes to code style and standards. Checkstyle itself even uses checkstyle. [https://github.com/checkstyle/checkstyle](https://github.com/checkstyle/checkstyle)
+Checkstyle is a static code analysis tool which checks if a projects Java source code complies with certain code standards, which essentially are rules for how code should be written and formatted. It's highly customizable and has a lot of templates like Googles and Suns Java styles. It's used in many big projects due to the fact that it makes these proejcts easier to handle for developers, and gets everyone on the same page when it comes to code style and standards. Checkstyle itself even uses checkstyle.
+[https://github.com/checkstyle/checkstyle](https://github.com/checkstyle/checkstyle)
 
 ## 2. Requirements & Specifications
 
@@ -70,3 +71,8 @@ The coverage and test quality is excellent. In the pom.xml file, it's configurat
 The process is also rigorous and good. The building pipeline uses self verification, which we mentioned earlier, where Checkstyle runs on itself, along with other analysis tools like SpotBugs.
 
 Something we noticed which could be improved is the integration of testing against multiple JDK versions (LTS vs bleeding edge) to catch those incompatibility issues we saw with Java version 25. The GUI crash in a headless environment is also something we figure can be improved, where the user gets a better error message instead of just a crash.
+
+## Appendencies
+Checsktyle GUI:
+![alt text](https://github.com/ekrlstd/A2SoftwareTesting/blob/main/2026-01-08-223912_hyprshot.png?raw=true)
+
